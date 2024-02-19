@@ -1,0 +1,32 @@
+{
+  "name": "بـــــدثـــــــــون",
+  "description": "تنصيب بوتات حماية",
+  "logo": "https://graph.org/file/5bc8daaefa9f7979cc8b7.jpg",
+  "repository": "https://github.com/modymesourceze/hemaya",
+    "env": {
+        "ELHYBA": {
+            "description": "حط توكن بوتك",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "حط الايبي ايدي",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "حط الايبي هاش",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "حط توكنك",
+            "value": ""                                    
+	   }
+	},
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "start": "python main.py"
+  }
+}
